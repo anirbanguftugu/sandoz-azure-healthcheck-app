@@ -10,11 +10,11 @@ from langchain.agents import initialize_agent, AgentType
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.tools import Tool
 from io import BytesIO
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 # Load .env
 # Create a .env in the same folder (see sample below). This will load Azure OpenAI params.
-#load_dotenv()
+load_dotenv()
 
 # -----------------------------
 # Streamlit Page Config and Styles
